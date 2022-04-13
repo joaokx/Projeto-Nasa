@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="mostra">
+
+    </div>
+    <header>
+        <img src="img/nasa.png" id="nasa" />
+        <h1>Foto Astronômica Do Dia</h1>
+    </header>
+
+    
+    <p id="escolha">
+        Escolha uma data a partir de 16 de junho de 1995 e viaje no tempo para uma imagem ou vídeo!
+    </p>
+
+    <main>
+        <div id="entrada">
+            <input id="data" type="date" min="1995-06-16" />
+        </div>
+
+        <div id="btn">
+            <button type="button" id="btn" value="enviar">Confirmar!</button>
+        </div>
+
+        <div id="infoResultado">
+            <h1 id="titulo"></h1>
+            <div id="midia"></div>
+            <p id="text"></p>
+        </div>
+    </main>
+
+    <footer>
+        Site feito para fins educacionais por
+        <a href="https://github.com/mmcrisx" target="_blank">Mariana Cristina Dias dos Santos</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
