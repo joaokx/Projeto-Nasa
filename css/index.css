@@ -119,3 +119,22 @@ footer{
     text-transform: capitalize;
 }
 
+@media (max-width: 400px){
+
+    .body{
+      max-width: 400px;
+      flex-wrap: wrap;
+      flex-direction: column;
+     height: 200px;
+     justify-content: center;
+     align-items: center;
+    padding: 20px;
+    }
+    #images{
+      display: none;
+    }
+    #titulo{
+      display: none;
+    }
+
+  }
