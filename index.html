@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-   
-    <div id="mostra">
-
-    </div>
     <header>
-        <img src="img/nasa.png" id="nasa" />
+        
+        <div id="navbar-header">
+        <img class="img "src="./image/nasa.png" id="logo" width="100px" />
         <h1>Foto Astronômica Do Dia</h1>
+        </div>
     </header>
 
     
@@ -25,8 +25,8 @@
         <div id="entrada">
             <input id="data" type="date" min="1995-06-16" />
         </div>
-
-        <div id="btn">
+<br>
+        <div>
             <button type="button" id="btn" value="enviar">Confirmar!</button>
         </div>
 
@@ -36,13 +36,32 @@
             <p id="text"></p>
         </div>
     </main>
+    <div id="section">
+    <video autoplay loop muted  poster="./image/nasa.png">
+        <source src="./video/Asteroids - 9135.mp4" type="video/mp4" >
+    </video>
+</div>
 
-    <footer>
-        Site feito para fins educacionais por
-        <a href="https://github.com/mmcrisx" target="_blank">Mariana Cristina Dias dos Santos</a>
+        <footer>
+            <div id="footer-content">
+              
+                <h3>João Pedro</h3>
+    
+              <ul id="socials">
+                  <li><a href="https://www.instagram.com/joaopedroprivvv/"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://github.com/joaokx"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-5536521a2/"><i class="fa fa-linkedin-square"></i></a></li>
+                 
+              </ul>
+            </div>
+          <div id="fotter-bottom">
+              <p>Copyrigth&copy;2022 By João Pedro</p>
+
+          </div>
     </footer>
+    <script src="https://use.fontawesome.com/1f115ceb0e.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
-    <script src="./main.js"></script>
+    <script src="./javascript/main.js"></script>
 </body>
 </html>
